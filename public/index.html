@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invaders</title>
+    <link rel="icon" href="assets/mouseOrange.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.4.0/socket.io.js"></script>
+    <script src="sketch.js"></script>
+    <script src="SpriteObject.js"></script>
+    <script src="Player.js"></script>
+    <script src="GameLevel.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+</head>
+<body style="background-color:rgb(39, 38, 38);">
+  <!-- <div class="alert">
+    <p>This webpage would like to play sounds</p>
+    <p class="buttons">
+      <button value="0">Block</button>
+      <button value="1">Allow</button>
+    </p>
+  </div>   -->
+  <div>
+      <h1>Invaders</h1>
+    </div>
+    <div id="sketch-holder">
+      <!-- sketch will go here -->
+    </div>
+    <div id="slider-holder" class = "custom-slider">
+      <!-- slider will go here -->
+    </div>
+    <div class = "gameDescription">
+    <p>The year is 2135 and the robots have taken over! It is up to you and your crew of specialized robot hunters to bring order and justice back to the world. Beware of the teleportiing bots! Collect coins to fund your expedition and gain points. Survive untill reinforcements come back (timer is over).</p>
+    <h2>How to Play</h2>
+    <p>Use left/right arrows to move left and right and up to jump. Toggle volume using the slider.</p>
+    <h2>Please fill out the survey below: </h2>
+    <p>https://docs.google.com/forms/d/e/1FAIpQLSeAhSRgeUjvnyb0GTXM91ymf4ABjYKbjiqBv7RqipSZiGou6A/viewform?usp=sf_link</p>
+</div>
+</body>
+</html>

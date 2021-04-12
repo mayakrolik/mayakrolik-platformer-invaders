@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 10;
+    height: 100%;
+    display: block;
+    cursor: url("assets/mouseOrange.png"), auto;
+}
+body {
+    color: white;
+    text-align: center;
+    font-family: Trebuchet MS, sans-serif;
+  
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+  
+    /* This centers our sketch vertically. */
+    align-items: center;
+
+    background-image: url("assets/backgroundImage.jpg");
+    background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed;
+  }
+  .gameDescription {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-family: Trebuchet MS, sans-serif;
+  }
+  .custom-slider  {
+    -webkit-appearance: none;  /* Override default CSS styles appearance: none;*/
+    
+    width: 100%;               /* Full-width */
+    height: 25px;              /* Specified height */
+    outline: none;             /* Remove outline */
+    opacity: 0.7;              /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s;   /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  .custom-slider > * {
+    cursor: url("assets/mouse.png"), auto;
+    /* background: ; */
+  }
+  .slider {
+    -webkit-appearance: none;
+    height: 5px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+
+  }
+  input.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border: 0;
+    background: url('assets/volume.png');
+  }
+  
+  input.slider::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    border: 0;
+    background: url('assets/volume.png');
+  }
+  .alert {
+    font: 14px Arial, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    border: 1px solid lightgray;
+    box-shadow: 3px 3px 12px lightgray;
+  }
+  /* p { margin: 12px; }
+  .alert .buttons {
+    float: right
+  } */
