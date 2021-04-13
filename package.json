@@ -1,13 +1,13 @@
 {
-  "name": "boing",
+  "name": "Invasion",
   "version": "1.0.0",
-  "description": "fun game this",
+  "description": "Platformer Project",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "lg",
+  "author": "Maya Krolik",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
